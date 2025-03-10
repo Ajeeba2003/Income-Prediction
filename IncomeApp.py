@@ -97,7 +97,7 @@ with col2:
        Relationship=st.selectbox("**Specify your role within the household.**",[' Not-in-family', ' Husband', ' Wife', ' Own-child', ' Unmarried',
        ' Other-relative'],index=None,placeholder=' ')
        capital_gain=st.number_input("**Enter the monetary gains you have received. **" ,value=None,placeholder=' ')
-       capital_loss=st.number_input(" **Enter any financial losses incurred"**,value=None,placeholder=' ')
+       capital_loss=st.number_input(" **Enter any financial losses incurred**",value=None,placeholder=' ')
        HoursPerWeek=st.number_input("**Specify your average working hours per week**",value=None,placeholder=' ')
        country=st.selectbox("**Select the country you belong to**",[' United-States', ' Cuba', ' Jamaica', ' India', ' Mexico',
        ' Puerto-Rico', ' Honduras', ' England', ' Canada', ' Germany',
