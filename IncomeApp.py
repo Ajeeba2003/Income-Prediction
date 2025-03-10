@@ -22,8 +22,7 @@ Dte=joblib.load("decision_tree.pkl")
 st.markdown("""
     <style>
         .main { background-color: #f0f2f6; 
-            
-               }   
+            }   
         .stButton>button { background-color: #ff4b4b; 
         color: white; 
         font-size: 18px; 
@@ -46,7 +45,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title('Income Prediction App')
+st.title(<h1>'Income Prediction App'</h1>)
 
 st.markdown("""
     <style>
