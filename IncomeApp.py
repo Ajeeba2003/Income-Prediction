@@ -32,7 +32,7 @@ st.markdown("""
         }
         .stButton>button:hover { background-color: #ff2020; }
 
-        h1 { text-align: center;
+        .h1 { text-align: center;
          font-size: px; 
          font-weight: bold;
          color:  red; 
