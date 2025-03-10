@@ -41,8 +41,8 @@ st.markdown("""
          background-color:#a9cce3 ;
           
           }
-        .success-msg { text-align: center; font-size: 24px; font-weight: bold; color: green; }
-        .warning-msg { text-align: center; font-size: 24px; font-weight: bold; color: red; }
+        .success-msg { text-align: center; font-size: 30px; font-weight: bold; color: green; }
+        .warning-msg { text-align: center; font-size: 30px; font-weight: bold; color: red; }
     </style>
 """, unsafe_allow_html=True)
 
@@ -96,10 +96,10 @@ with col1:
 with col2:
        Relationship=st.selectbox("**Specify your role within the household.**",[' Not-in-family', ' Husband', ' Wife', ' Own-child', ' Unmarried',
        ' Other-relative'],index=None,placeholder=' ')
-       capital_gain=st.number_input("*Enter the monetary gains you have received. *" ,value=None,placeholder=' ')
-       capital_loss=st.number_input(" Enter any financial losses incurred",value=None,placeholder=' ')
-       HoursPerWeek=st.number_input("Specify your average working hours per week",value=None,placeholder=' ')
-       country=st.selectbox("Select the country you belong to",[' United-States', ' Cuba', ' Jamaica', ' India', ' Mexico',
+       capital_gain=st.number_input("**Enter the monetary gains you have received. **" ,value=None,placeholder=' ')
+       capital_loss=st.number_input(" **Enter any financial losses incurred"**,value=None,placeholder=' ')
+       HoursPerWeek=st.number_input("**Specify your average working hours per week**",value=None,placeholder=' ')
+       country=st.selectbox("**Select the country you belong to**",[' United-States', ' Cuba', ' Jamaica', ' India', ' Mexico',
        ' Puerto-Rico', ' Honduras', ' England', ' Canada', ' Germany',
        ' Iran', ' Philippines', ' Poland', ' Columbia', ' Cambodia',
        ' Thailand', ' Ecuador', ' Laos', ' Taiwan', ' Haiti', ' Portugal',
@@ -108,7 +108,7 @@ with col2:
        ' Outlying-US(Guam-USVI-etc)', ' Scotland', ' Trinadad&Tobago',
        ' Greece', ' Nicaragua', ' Vietnam', ' Hong', ' Ireland',
        ' Hungary', ' Holand-Netherlands'],index=None,placeholder=' ')
-       sex=st.radio("Select gender",options=[' Male', ' Female'],index=None)
+       sex=st.radio("**Select gender**",options=[' Male', ' Female'],index=None)
 
 
 if st.button('Predict'):
