@@ -36,7 +36,7 @@ st.markdown("""
         h1 { text-align: center;
          font-size: px; 
          font-weight: bold;
-         color:  rgb(128, 0, 0); 
+         color:  red; 
          font-family: 'Times New Roman', serif;
          background-color:#a9cce3 ;
           
