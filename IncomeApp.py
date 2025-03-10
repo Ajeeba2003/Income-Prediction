@@ -32,7 +32,7 @@ st.markdown("""
         }
         .stButton>button:hover { background-color: #ff2020; }
 
-         .title { text-align: center;
+         h1 { text-align: center;
          font-size: px; 
          font-weight: bold;
          color:  red; 
@@ -45,7 +45,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.markdown('<p class='title'>Income Prediction App</p>', unsafe_allow_html=True)
+st.title('Income Prediction App')
 
 st.markdown("""
     <style>
