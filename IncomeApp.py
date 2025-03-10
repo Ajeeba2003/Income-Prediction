@@ -45,7 +45,7 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title(<h1>'Income Prediction App'</h1>)
+st.markdown(<h1>'Income Prediction App'</h1>, unsafe_allow_html=True)
 
 st.markdown("""
     <style>
