@@ -76,27 +76,27 @@ col1, spacer, col2 = st.columns([1, 0.1, 1])
 
 with col1:
        age=st.number_input("**Enter your Age:**",value=None,placeholder=' ')
-       workclass=st.selectbox("Select your  Employment Category.",[' State-gov', ' Self-emp-not-inc', ' Private', ' Federal-gov',
+       workclass=st.selectbox("**Select your  Employment Category.**",[' State-gov', ' Self-emp-not-inc', ' Private', ' Federal-gov',
        ' Local-gov', ' Self-emp-inc', ' Without-pay'],index=None,placeholder=' ')
-       Education=st.selectbox("Choose your Qualification Level",[' Bachelors', ' HS-grad', ' 11th', ' Masters', ' 9th',
+       Education=st.selectbox("**Choose your Qualification Level**",[' Bachelors', ' HS-grad', ' 11th', ' Masters', ' 9th',
        ' Some-college', ' Assoc-acdm', ' 7th-8th', ' Doctorate',
        ' Assoc-voc', ' Prof-school', ' 5th-6th', ' 10th', ' Preschool',
        ' 12th', ' 1st-4th'],index=None,placeholder=' ')
-       Martial_status=st.selectbox("Indicate your current marital status.",[' Never-married', ' Married-civ-spouse', ' Divorced',
+       Martial_status=st.selectbox("**Indicate your current marital status.**",[' Never-married', ' Married-civ-spouse', ' Divorced',
               ' Married-spouse-absent', ' Separated', ' Married-AF-spouse',
               ' Widowed'],index=None,placeholder=' ')
-       occupation=st.selectbox("Select your profession from the available options.",[' Adm-clerical', ' Exec-managerial', ' Handlers-cleaners',
+       occupation=st.selectbox("**Select your profession from the available options.**",[' Adm-clerical', ' Exec-managerial', ' Handlers-cleaners',
        ' Prof-specialty', ' Other-service', ' Sales', ' Transport-moving',
        ' Farming-fishing', ' Machine-op-inspct', ' Tech-support',
        ' Craft-repair', ' Protective-serv', ' Armed-Forces',
        ' Priv-house-serv'],index=None,placeholder=' ')
-       Race=st.radio("Choose your racial background.",options=[' White', ' Black', ' Asian-Pac-Islander', ' Amer-Indian-Eskimo',
+       Race=st.radio("**Choose your Ethnic background.**",options=[' White', ' Black', ' Asian-Pac-Islander', ' Amer-Indian-Eskimo',
        ' Other'],index=None)
 
 with col2:
-       Relationship=st.selectbox("Specify your role within the household.",[' Not-in-family', ' Husband', ' Wife', ' Own-child', ' Unmarried',
+       Relationship=st.selectbox("**Specify your role within the household.**",[' Not-in-family', ' Husband', ' Wife', ' Own-child', ' Unmarried',
        ' Other-relative'],index=None,placeholder=' ')
-       capital_gain=st.number_input("Enter the monetary gains you have received. " ,value=None,placeholder=' ')
+       capital_gain=st.number_input("*Enter the monetary gains you have received. *" ,value=None,placeholder=' ')
        capital_loss=st.number_input(" Enter any financial losses incurred",value=None,placeholder=' ')
        HoursPerWeek=st.number_input("Specify your average working hours per week",value=None,placeholder=' ')
        country=st.selectbox("Select the country you belong to",[' United-States', ' Cuba', ' Jamaica', ' India', ' Mexico',
