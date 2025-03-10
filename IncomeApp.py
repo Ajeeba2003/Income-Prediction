@@ -4,7 +4,6 @@ import pandas as pd
 import numpy as np
 
 
-# pipeline=joblib.load('Pipeline.pkl')
 Employment=joblib.load("workEncode.pkl")
 Qualification=joblib.load("education.pkl")
 ME=joblib.load("maritalEncode.pkl")
@@ -17,7 +16,6 @@ Dte=joblib.load("decision_tree.pkl")
 
 
 
-# st.write(pipeline.feature_names_in_)
 
 
 
@@ -25,9 +23,7 @@ st.markdown("""
     <style>
         .main { background-color: #f0f2f6; 
             
-                }     
-     
-    }
+               }   
         .stButton>button { background-color: #ff4b4b; 
         color: white; 
         font-size: 18px; 
@@ -57,9 +53,6 @@ st.markdown("""
         .stNumberInput, .stSelectbox, .stRadio {
             margin-bottom: 20px !important;  /* Adjust spacing */
         }
-        
-        
-
         
         div[data-baseweb="select"]  {
             background-color: #f5f5f5; /* Light gray */
@@ -133,23 +126,7 @@ if st.button('Predict'):
 
     data=np.array([[age,workclass,Education,Martial_status,occupation,
                 Relationship,Race,sex,capital_gain,capital_loss,HoursPerWeek,country]])
-    # data=pd.DataFrame([{
-    # 'Age':age, 
-    # 'workclass':workclass, 
-    # 'education':Education,
-    # 'marital-status':Martial_status,
-    # 'occupation':occupation, 
-    # 'relationship':Relationship,    
-    # 'race':Race, 
-    # 'sex':sex, 
-    # 'capital-gain':capital_gain,
-    # 'capital-loss':capital_loss,
-    # 'hours-per-week':HoursPerWeek,
-    # 'native-country':country
-    # }])
-
-
-    # a=pipeline.predict(data)
+   
 
 
     Prediction=Dte.predict(data)
