@@ -23,7 +23,7 @@ st.markdown("""
     <style>
        [data-testid="stApp"] { background-color: #f0f2f6;  } 
        
-        .stButton>button { background-color: #b8e3a9; 
+        .stButton>button { background-color: #ff4b4b; 
         color: white; 
         font-size: 18px; 
         border-radius: 10px; 
