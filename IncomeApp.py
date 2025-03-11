@@ -35,7 +35,7 @@ st.markdown("""
          [data-testid="stHeadingWithActionElements"]{ text-align: center;
          font-size: px; 
          font-weight: bold;
-         color:  red; 
+         color:  rgb(128, 0, 0); 
          font-family: 'Times New Roman', serif;
          background-color:#a9cce3 ;
           
