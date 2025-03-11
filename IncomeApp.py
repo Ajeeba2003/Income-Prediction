@@ -21,7 +21,7 @@ Dte=joblib.load("decision_tree.pkl")
 
 st.markdown("""
     <style>
-        .main { background-color: #b8e3a9; 
+        body { background-color: #b8e3a9; 
             }   
         .stButton>button { background-color: #b8e3a9; 
         color: white; 
