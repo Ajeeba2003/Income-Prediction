@@ -21,7 +21,7 @@ Dte=joblib.load("decision_tree.pkl")
 
 st.markdown("""
     <style>
-        .main { background-color: #f0f2f6; 
+        .main { background-color: "Black"; 
             }   
         .stButton>button { background-color: #ff4b4b; 
         color: white; 
@@ -57,13 +57,13 @@ st.markdown("""
             background-color: #f5f5f5; /* Light gray */
             border: 2px solid #a9cce3 ;
             border-radius: 10px;
-            padding: 5px;
+            # padding: 5px;
         }
         div[data-testid="stNumberInputContainer"]  {
             background-color: #f5f5f5; 
             border: 2px solid #a9cce3;
             border-radius: 10px; 
-            padding: 5px; 
+            # padding: 5px; 
     }
 
     </style>
