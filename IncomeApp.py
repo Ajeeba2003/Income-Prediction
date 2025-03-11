@@ -21,7 +21,7 @@ Dte=joblib.load("decision_tree.pkl")
 
 st.markdown("""
     <style>
-        [data-testid="stApp"] <div { background-color: #b8e3a9; 
+       div [class="stApp stAppEmbeddingId-ssy35il08ljj st-emotion-cache-1r4qj8v e10tffaf0"] { background-color: #b8e3a9; 
             } 
         # [data-testid="stHeader"] { background-color: #b8e3a9; 
         #     } 
