@@ -21,7 +21,7 @@ Dte=joblib.load("decision_tree.pkl")
 
 st.markdown("""
     <style>
-       [data-testid="stApp"] { background-color: #b8e3a9; 
+       [data-testid="stApp"] { background-image: url("https://www.investopedia.com/thmb/hy-6lw0goaejcWX4V9_0ELJRWTU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/IncomeV2-edit-5e17793a21054438b9a6612e489d4904.jpg"); 
             } 
         # [data-testid="stHeader"] { background-color: #b8e3a9; 
         #     } 
