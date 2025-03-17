@@ -40,7 +40,7 @@ st.markdown("""
          background-color:#a9cce3 ;
           
           }
-        [data-testid="stMarkdownContainer"] { text-align: center; font-size: 30px; font-weight: bold; color: green; }
+         .success-msg{ text-align: center; font-size: 30px; font-weight: bold; color: green; }
         .warning-msg { text-align: center; font-size: 30px; font-weight: bold; color: red; }
     </style>
 """, unsafe_allow_html=True)
